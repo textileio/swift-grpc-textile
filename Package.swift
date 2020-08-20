@@ -12,7 +12,7 @@ let package = Package(
             targets: ["GRPCTextile"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/grpc/grpc-swift.git", .upToNextMajor(from: "0.11.0")),
+        .package(name: "SwiftGRPC", url: "https://github.com/grpc/grpc-swift.git", .upToNextMajor(from: "0.11.0")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
